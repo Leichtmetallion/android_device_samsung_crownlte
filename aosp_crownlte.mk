@@ -26,8 +26,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
